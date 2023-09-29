@@ -3,7 +3,7 @@ package org.example;
 
 public class Calculator {
 	
-	public static int add(int a, int b) {
+	public static double add(double a, double b) {
 		return a + b;
 	}
 	
@@ -20,6 +20,6 @@ public class Calculator {
 	}
 
 	public static void main (String args[]) {
-		add(5,7);
+		add(5.4,7.2);
 	}
 }
